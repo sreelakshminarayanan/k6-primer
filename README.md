@@ -26,5 +26,5 @@ To run k6 script
 
              K6 run –vus 10 –duration 10s simple.js
 
-![image](https://github.com/sreelakshminarayanan/learnk6/assets/13746960/d5de7912-1ffc-44a2-b9ac-44fefcba4909)
+
 
