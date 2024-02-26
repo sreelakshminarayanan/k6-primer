@@ -11,7 +11,7 @@
   Supports distributed load generation using k6 operator. It can run on top of kubernetes as pods.
 
 
-![image](https://github.com/sreelakshminarayanan/learnk6/assets/13746960/07a9b784-68a6-4d1e-baad-6eff9177c31e)
+		![image](https://github.com/sreelakshminarayanan/learnk6/assets/13746960/07a9b784-68a6-4d1e-baad-6eff9177c31e)
 
 ![k6 drawio](https://github.com/sreelakshminarayanan/learnk6/assets/13746960/ff76e75f-a284-4f87-9c78-a2608959aa6a)
 
