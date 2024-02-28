@@ -1,4 +1,4 @@
-**Why K6**
+**K6 Architecture and Flow**
 
   K6 is written in the goja programming language, which is an implementation of ES2015(ES6) JavaScript on pure Golang language.It doesn’t require nodejs
   
@@ -25,6 +25,28 @@ To run k6 script
                k6 run
 
              K6 run –vus 10 –duration 10s simple.js
+
+
+**K6 Life Cycle**
+
+``// 1. init code
+2 
+3export function setup() {
+4 // 2. setup code
+5}    Executed initially once , to load test data from external sources
+6 
+7export default function (data) {
+8 // 3. VU code
+9} Executed initially once , to load test data from external sources   Ex 
+10 
+11export function teardown{
+12 // 4. teardown code
+13}``
+
+
+
+
+
 
 
 
