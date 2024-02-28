@@ -29,7 +29,7 @@ To run k6 script
 
 **K6 Life Cycle**
 
-``// 1. init code
+// 1. init code
 2 
 3export function setup() {
 4 // 2. setup code
@@ -41,7 +41,43 @@ To run k6 script
 10 
 11export function teardown{
 12 // 4. teardown code
-13}``
+13}
+
+** Simulation of Real time traffic**
+
+ Simulation of real time production data using shared array, faker library.
+
+ Simulation of real time execution through the concept of executors.
+
+
+**Simulation of Real time data **
+
+Use of faker library for data parameterization.
+
+Connect to external source such as DB, JSON file and create a shared array across virtual users.
+
+Shared Array Constraints - Wou
+
+Global System Variables :
+
+Iterations completed: ${exec.instance.iterationsCompleted}
+
+** Simulation of Real time Traffic **
+
+Simulation of real time traffic by controlling the number of virtual users and iterations.
+
+Configurable via JSON object with executor type, iterations count and count of virtual users.
+
+
+``K6 run executor.js``
+
+
+
+
+
+
+
+
 
 
 
