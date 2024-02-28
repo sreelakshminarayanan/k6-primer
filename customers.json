@@ -1,0 +1,22 @@
+{
+
+    "customers": [
+           {
+            "name": "Abhishek",
+            "city": "bangalore"
+           },
+           {
+            "name": "Rajesh",
+            "city": "Chennai"
+           },
+           {
+            "name": "Ashwin",
+            "city": "hyderabad"
+           },
+           {
+            "name": "Ashwin",
+            "city": "kolkatta"
+           }
+
+    ]
+}
