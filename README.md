@@ -29,19 +29,26 @@ To run k6 script
 
 **K6 Life Cycle**
 
-// 1. init code
-2 
-3export function setup() {
-4 // 2. setup code
-5}    Executed initially once , to load test data from external sources
-6 
-7export default function (data) {
-8 // 3. VU code
-9} Executed initially once , to load test data from external sources   Ex 
-10 
-11export function teardown{
-12 // 4. teardown code
-13}
+``
+# init code
+ 
+export function setup() {
+  #    Executed initially once , to load test data from external sources
+}
+
+
+export default function (data) {
+  # VU code
+}
+
+# Executed initially once , to load test data from external sources   Ex 
+ 
+export function teardown{
+# teardown code
+}
+
+``
+
 
 ** Simulation of Real time traffic**
 
