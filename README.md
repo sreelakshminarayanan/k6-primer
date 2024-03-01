@@ -47,22 +47,22 @@ export function teardown{
 
 
 
-** Simulation of Real time traffic**
+**Simulation of Real time traffic**
 
- Simulation of real time production data using shared array, faker library.
+ * Simulation of real time production data using shared array, faker library.
 
- Simulation of real time execution through the concept of executors.
+ * Simulation of real time execution through the concept of executors.
 
 
-**Simulation of Real time data **
+**Simulation of Real time data**
 
-Use of faker library for data parameterization.
+* Use of faker library for data parameterization.
 
-Connect to external source such as DB, JSON file and create a shared array across virtual users.
+* Connect to external source such as DB, JSON file and create a shared array across virtual users.
 
-Shared Array Constraints - Wou
+* Shared Array Constraints - Wou
 
-Global System Variables :
+* Global System Variables :
 
 Iterations completed: ${exec.instance.iterationsCompleted}
 
