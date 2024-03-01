@@ -18,13 +18,13 @@
 
 Create a scaffold file.
 
-	K6 create
+	K6 new
 
 To run k6 script
 
-               k6 run
+             k6 run
 
-             K6 run –vus 10 –duration 10s simple.js
+             K6 run –vus 10 –duration 10s script.js
 
 
 **K6 Life Cycle**
@@ -65,6 +65,9 @@ export function teardown{
 * Global System Variables :
 
 Iterations completed: ${exec.instance.iterationsCompleted}
+
+  ``K6 run dp.js``
+
 
 ** Simulation of Real time Traffic **
 
