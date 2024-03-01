@@ -29,7 +29,7 @@ To run k6 script
 
 **K6 Life Cycle**
 
-``
+
 # init code
  
 export function setup() {
@@ -47,7 +47,6 @@ export function teardown{
 # teardown code
 }
 
-``
 
 
 ** Simulation of Real time traffic**
