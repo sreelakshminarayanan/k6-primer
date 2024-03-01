@@ -1,6 +1,12 @@
 import http from 'k6/http';
 import { sleep, check } from 'k6';
-
+/**
+ * 
+ *    Performance test script to simulate real time traffic with combination
+ *  of ramping vus and constant vu with slep time.
+ * 
+ *    
+ */
 export const options = {
   discardResponseBodies: true,
   scenarios: {

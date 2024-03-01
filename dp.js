@@ -1,8 +1,11 @@
-import http from "k6/http";
 import { SharedArray } from "k6/data";
 import faker from 'https://cdnjs.cloudflare.com/ajax/libs/Faker/3.1.0/faker.min.js'
 import exec from 'k6/execution';
 
+/***
+ *  Simulation of real time production data through faker library and 
+ *   shared array
+ */
 export let options = {
     vus:5,
     duration: '5s',

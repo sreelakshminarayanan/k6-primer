@@ -15,6 +15,10 @@ export const options = {
 };
 
 
+/**
+ *  This code is to explain custom metrics can be built in k6 based on user 
+ *  define scenarios
+ */
 export default function() {
   const res = http.get('https://test.k6.io');
   check(res, {
