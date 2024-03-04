@@ -70,13 +70,15 @@ Iterations completed: ${exec.instance.iterationsCompleted}
   ``K6 run dp.js``
 
 
-** Simulation of Real time Traffic **
+** Simulation of Real time Traffic**
 
-Simulation of real time traffic by controlling the number of virtual users and iterations.
+* Simulation of real time traffic by controlling the number of virtual users and iterations.
 
-Configurable via JSON object with executor type, iterations count and count of virtual users.
+* Configurable via JSON object with executor type, iterations count and count of virtual users.
 
+* There are various executors in k6 to simulate real time traffic, one of the use case would be shopping website, where there will be constant http request for querying the production with a think time and other request will be ramup and ramup down for order request. Usually orders will be peak up during the period of the day and will gradually decline through the day.
 
+* 
 ``K6 run executor.js``
 
 
