@@ -63,14 +63,14 @@ export function teardown{
 
 * Shared Array Constraints - Wou
 
-* Global System Variables :
+* Global System Variables : Global system variable is having information on context of run happened so far. Combining shared array and Global system variable, randomization can be introduced in the performance testing process.
 
 Iterations completed: ${exec.instance.iterationsCompleted}
 
   ``K6 run dp.js``
 
 
-** Simulation of Real time Traffic**
+**Simulation of Real time Traffic**
 
 * Simulation of real time traffic by controlling the number of virtual users and iterations.
 
